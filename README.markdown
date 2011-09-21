@@ -3,8 +3,8 @@ Weizenbaum
 
 Copyright 2011 Lawrence Kesteloot.
 
-This solves a problem described by Dijkstra in EWD249, pages 83 and 84, due to
-Joe Weizenbaum:
+This solves a problem described by Dijkstra in [EWD249][EWD249], pages 83 and
+84, due to [Joe Weizenbaum][Joe Weizenbaum]:
 
 > Make a program that, for given positive integer _n_, determines the smallest number
 > _s_ that can be decomposed into the sum of two n-th powers in at least two non-trivially
@@ -22,3 +22,5 @@ arc between 0 and 45 degrees (inclusive) for integer coordinates. We do the sear
 backwards, first looking for integer coordinates and keeping track of the radius^n
 value, which we call s.
 
+[EWD249]: http://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF
+[Joe Weizenbaum]: http://en.wikipedia.org/wiki/Joseph_Weizenbaum
